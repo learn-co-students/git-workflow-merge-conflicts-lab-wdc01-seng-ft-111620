@@ -169,7 +169,7 @@ probably already are, but ensure that you are currently on your `master` branch
 (type `git branch`). Then run:
 
 ```bash
-git merge marty-mcfly -m "Merge marty mcfly"
+git merge marty-mcfly -m "Merge marty mcfly" 
 ```
 
 Here, we're saying: "Integrate the differences between `master` and
@@ -307,10 +307,10 @@ That's it! Open up `index.html` in your browser to see your beautiful work!
 ### Step 6: Wrap Up
 
 Remember, while your computer has these updates, GitHub has no idea that you
-made them. These are all local. 
+made them. These are all local.
 
-Typically, the next step would be to create a local branch, push that 
-branch to the remote, and then create a pull request to merge your branch 
+Typically, the next step would be to create a local branch, push that
+branch to the remote, and then create a pull request to merge your branch
 into the remote `master` branch.
 
 **In this lab, you do not need to create a pull request.**
